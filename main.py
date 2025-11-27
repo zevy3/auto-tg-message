@@ -18,7 +18,7 @@ async def send_messages():
                 print(f"✗ Ошибка: {e}")
             
             # Ждём 5 минут
-            await asyncio.sleep(10)
+            await asyncio.sleep(300)
 
 if __name__ == '__main__':
     asyncio.run(send_messages())
